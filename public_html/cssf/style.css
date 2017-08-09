@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09/08/2017, 11:46:31 AM
+    Author     : USER
+*/
+
+#cabecera{
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    color:  darkturquoise;
+    
+}
+#menu ul li{
+    list-style-type: none;
+    font-family:fantasy;
+    display: inline;
+    font-size: 25px;
+    background: crimson;
+    padding: 15px;
+    border-radius: 300px;
+}
+#cabecera span{
+    color:  buttontext;
+}
+#cuerpo img{
+    width: 800px;
+    height: 400px;
+    display: block;
+    margin:  auto;   
+    
+}
+#cuerpo p {
+    font-family: inherit;
+    font-size: 20px;
+        
+        
+}
+#pie p{
+   
+    text-align: center;
+    
+    
+    
+}
+#pie{
+    background: deepskyblue;
+    border-radius: 8px;
+}
+#pie img{
+    width: 35px;
+}
+/* aqui estamos definiendo el mismo color y tamaño de letra para los enlances */
+a:link, a:visited {
+    font-size: 25px;
+    background: chartreuse;
+    text-decoration: none;
+}
+a:hover{
+    background: blue;
+    color: chartreuse;
+    
+    
+}
+#menu ul li:hover{
+    background: blue;
+}
+    
+
+    
