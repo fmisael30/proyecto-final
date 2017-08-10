@@ -44,17 +44,39 @@ and open the template in the editor.
     
 }
 /* aqui estamos definiendo el mismo color y tamaño de letra para los enlances */
-a:link, a:visited {
-    font-size: 25px;
-    background: chartreuse;
-    text-decoration: none;
+#menu2{
+    float: left;
+    border: black;
+    background: cornsilk;
+    border-radius: 15px;
+    width: 25%;
+    height: 1150px;
+   
+   
 }
-a:hover{
-    background: blue;
-    color: chartreuse;
+#contenido{
+    border: 1px solid blue;
+    width: 60%;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background: coral;
+    text-align: center;
+    font-family: verdana;
+    
+     
+    
+    
     
     
 }
-#menu ul li:hover{
-    background: blue;
+#pie,div{
+    float: bottom;
+    clear: both;
+    
+}
+#contenedor img{
+    width: 300px;
+    padding-left: 30px;
 }
