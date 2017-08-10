@@ -17,7 +17,7 @@ and open the template in the editor.
             <span> Tienda De Jersey's </span>
             <div id='menu'>
                 <ul>
-                    <li> Inicio </li>
+                    <li>Inicio </li>
                     <li>Sobre Nosotros </li>
                     <li> Galeria de compras </li>
                     <li> Contacto </li>
@@ -27,7 +27,41 @@ and open the template in the editor.
             
         </div>
         
-         <div id="cuerpo"> </div>
+        
+         
+         <div id="contacto">
+            <h1> Contactanos </h1>
+            <form> 
+                <div>
+                    <label for="nombre"> Nombre:</label>
+                    <input type="text" id="nombre"/>
+                </div>
+                
+                  <div>
+                    <label for="email"> E-mail:</label>
+                    <input type="email" id="email"/>
+                </div>
+                
+                 <div>
+                    <label for="asunto"> Ayuda:</label>
+                    <select id="asunto" name="asunto">
+                        <option value="" selected="selected">--selecciona--</option>
+                        <option value="comentar">Quiero conocer la empresa</option>
+                        <option value="info"> Quiero tener mas informacion de la empresa</option>
+                        <option value="entrega"> Quiero trabajar con ustedes </option>
+                        <option value="otro"> Otro</option>
+                    </select>
+                </div>     
+                
+                <div>
+                    <label for="msg"> Mensaje</label>
+                    <textarea id="msg" cols="14" rows="5"></textarea>
+                </div>
+                <div class="boton">
+                    <button type="submit"> Enviar mensaje </button>
+                    </div>
+            </form>
+        </div>
          
         
         <div id="pie">

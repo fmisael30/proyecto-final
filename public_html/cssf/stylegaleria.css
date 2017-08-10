@@ -46,7 +46,7 @@ and open the template in the editor.
 /* aqui estamos definiendo el mismo color y tamaño de letra para los enlances */
 a:link, a:visited {
     font-size: 25px;
-    background: chartreuse;
+    
     text-decoration: none;
 }
 a:hover{

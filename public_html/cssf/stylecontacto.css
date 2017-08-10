@@ -38,6 +38,7 @@ and open the template in the editor.
 #pie{
     background: deepskyblue;
     border-radius: 8px;
+    margin-top:2em;
 }
 #pie img{
     width: 35px;
@@ -46,15 +47,73 @@ and open the template in the editor.
 /* aqui estamos definiendo el mismo color y tamaño de letra para los enlances */
 a:link, a:visited {
     font-size: 25px;
-    background: chartreuse;
+/*    background: chartreuse;*/
     text-decoration: none;
 }
 a:hover{
     background: blue;
-    color: chartreuse;
+    
     
     
 }
 #menu ul li:hover{
     background: blue;
+    
+}
+
+/*aqui se agregara el estilo del formulairo*/
+form{
+    
+    margin: auto;
+    width: 600px;
+    padding: 3em;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: white;
+}
+
+form div{
+    margin-top: 1em;
+    
+    
+    
+}
+
+a:link {
+    color:#F8FBEF
+}
+
+a:visited {
+    color: #F8FBEF
+}
+a:active {
+    color:#F8FBEF
+}
+
+label{
+
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+input, textarea { 
+    font: 1em Arial;
+    width:300px;
+}
+
+input:focus, textarea:focus{
+    border-color: red;
+}
+
+textarea{
+    vertical-align: top;
+}
+
+h1{
+    text-align: center;
+}
+
+#fondo{
+    background: #0080FF;
 }
